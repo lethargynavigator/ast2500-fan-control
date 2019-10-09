@@ -8,6 +8,7 @@ Uses hddtemp to detect hdd temps
 I'm using this on an Asrock X470D4U, but it might work with other motherboards with an ASPEED BMC.
 
 Notes:<br>
+fancontrol_cpu_only.py does what the name says.<br>
 The fan speed detection functions are currently unused. I'll use them for validation of fan speed changes if I find it necessary.<br>
 The hdd temp and cpu temp detection functions are designed to set the fans to full speed if an exception is caught.<br>
 
