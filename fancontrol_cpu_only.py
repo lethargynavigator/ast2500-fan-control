@@ -57,6 +57,8 @@ def getcputemp():
         return int(temp)
     except Exception as e:
         log(e)
+        subprocess.run(allfanshigh)
+        log('cpu temp detection failure, all fans set to 100%')
 
 def checkcputemp():
     global currentcpufanspeed
