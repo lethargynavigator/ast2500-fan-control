@@ -6,3 +6,9 @@ Uses ipmitool to detect CPU temp and control fan speeds
 Uses hddtemp to detect hdd temps
 
 I'm using this on an Asrock X470D4U, but it might work with other motherboards with an ASPEED BMC.
+
+Requirements:
+python 3
+ipmitool
+hddtemp
+needs to run as root for ipmitool to work
