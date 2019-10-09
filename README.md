@@ -18,6 +18,6 @@ ipmitool<br>
 hddtemp<br>
 needs to run as root for ipmitool to work<br>
 
-TODO:
+TODO:<br>
 set fans to full speed on exit<br>
 write systemd service<br>
