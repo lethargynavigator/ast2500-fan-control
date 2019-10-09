@@ -7,16 +7,16 @@ Uses hddtemp to detect hdd temps
 
 I'm using this on an Asrock X470D4U, but it might work with other motherboards with an ASPEED BMC.
 
-The fan speed detection functions are currently unused. I'll use them for validation of fan speed changes if I find it necessary.
+Notes:<br>
+The fan speed detection functions are currently unused. I'll use them for validation of fan speed changes if I find it necessary.<br>
+The hdd temp and cpu temp detection functions are designed to set the fans to full speed if an exception is caught.<br>
 
-The hdd temp and cpu temp detection functions are designed to set the fans to full speed if an exception is caught.
-
-Requirements:
-python 3
-ipmitool
-hddtemp
-needs to run as root for ipmitool to work
+Requirements:<br>
+python 3<br>
+ipmitool<br>
+hddtemp<br>
+needs to run as root for ipmitool to work<br>
 
 TODO:
-set fans to full speed on exit
-write systemd service
+set fans to full speed on exit<br>
+write systemd service<br>
