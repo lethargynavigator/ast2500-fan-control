@@ -1,0 +1,14 @@
+[Unit]
+Description=Fan Control
+After=multi-user.target
+Conflicts=getty@tty1.service
+
+[Service]
+Type=simple
+ExecStart=/root/venv/fan_control/fan_control.py
+StandardInput=tty-force
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
