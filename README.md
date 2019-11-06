@@ -17,7 +17,3 @@ python 3<br>
 ipmitool<br>
 hddtemp<br>
 needs to run as root for ipmitool to work<br>
-
-TODO:<br>
-set fans to full speed on exit<br>
-write systemd service<br>
